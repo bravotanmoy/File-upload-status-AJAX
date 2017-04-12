@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+<title>AJAX file upload status</title>
+<link rel="icon" href="#"/>
+<link rel="stylesheet" href="style.css"/>
+<script src="script.js"></script>
+
+</head>
+<body>
+<h3>In this step you can upload your file</h3> <br/>
+<form id="upload_form" enctype="multipart/form-data" method="post">
+    <input type="file" name="file1" id="file1"/><br/>
+    <input type="button" value="Upload File" onClick="uploadFile()"/>
+    
+    <progress value="68" max="100" id="progressBar"></progress>
+    
+    <h3 id="status"></h3>
+    <p id="loaded_n_total"></p>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+/*
+Theme Name: Blank Theme
+Theme URI: www.codebeech.com
+Description: (c) 2014 Divine Project
+Author: Tanmoy Biswas
+Author URI: www.codebeech.com
+Date: 15.04.2015
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: creative, two-columns, custom-header, custom-background, threaded-comments, sticky-post, editable-content
+*/
+*{margin:0px;padding:0px;}
+a{text-decoration:none; color:inherit;}
+img{border:none; max-width:100%;}
+form progress{width:450px; height:30px;}
+
+
+
+
+/**************************************************************************************
+************************************ STYLE SHEET **************************************
+*************************************************************************************/
+/*Default Screen*/
+@media screen and (max-width: 1024px) {
+
+
+}
+
+/*Tablets Screen*/
+@media screen and (max-width: 768px) {
+
+}
+
+/* Width Phone Screen */ 
+@media screen and (max-width: 480px) {
+
+
+}
+
+/*Simple Mobile Phone Screen*/
+@media screen and (max-width: 320px) {
+
+
+}
+
